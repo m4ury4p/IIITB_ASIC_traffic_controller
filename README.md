@@ -19,7 +19,7 @@ The block diagram of traffic light controller is shown below:
 ## Functional characteristics
 Below is the output of gkwave tool after using the verilog code and the testbench. The vvp file at the output is showing clock signal, traffic light near highway and the other traffic light (near farm).
 <p align="center">
-  <img width="900" height="250" src="/images/output1.png">
+  <img width="900" height="250" src="/images/output.png">
 </p>
 
 ## Required Tools and Installation Details
