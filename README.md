@@ -2,7 +2,7 @@
 This repository contains design of a traffic light controlling module made by verlilog and the simulation of the same.
 
 ## Introduction
-Traffic lights are signaling devices used to manage traffic using different colours of light(Red, Green and Yellow). They are placed on the cross-roads to manage traffic. This model can be implemented using a microcontroller, programmable gate array or application specific IC. 
+Traffic lights are signaling devices used to manage traffic using different colours of light(Red, Green and Yellow). Usually we have two traffic light connected by same module working in sync. They are placed on cross-roads to avoid accidents and maintaining proper movement on roads. This model can be implemented using a microcontroller, programmable gate array or application specific IC. 
 
 ## Applications
 PISO Shift Registers are commonly used in
