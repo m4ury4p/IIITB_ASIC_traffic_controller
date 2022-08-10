@@ -12,8 +12,14 @@ Traffic lights are commonly used in
 
 ## Block Diagram
 The block diagram of traffic light controller is shown below:
-<p align="center">
+<p align="left">
   <img src="https://2.bp.blogspot.com/-ydh2DFq1BXQ/WB1oLTULi2I/AAAAAAAAEq0/SIKy6J_1r4gBHid8o5Koa-SK6n68GRaKwCLcB/s400/tracfic1.jpg">
+</p>
+
+## Functional characteristics
+Below is the output of gkwave tool after using the verilog code and the testbench. The vvp file at the output is showing clock signal, traffic light near highway and the other traffic light (near farm).
+<p align="center">
+  <img width="900" height="250" src="/images/IMG3.jpg">
 </p>
 
 ## Required Tools and Installation Details
