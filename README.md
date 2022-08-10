@@ -52,6 +52,7 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which read
   <li>
     <b> For arch based distros: </b>
     <br>
+    Open the terminal and enter the following commands
   
   
     $   sudo pacman -Syu
