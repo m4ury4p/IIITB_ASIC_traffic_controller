@@ -97,7 +97,7 @@ Find below simulation results when a 4-bit input '1011' is provided. Note that d
 
 ## Contributors
 
-- <b> Mahati Basavaraju </b>
+- <b> Maurya Patel </b>
 - <b> Kunal Ghosh </b>
 
 ## Acknowledgements
@@ -106,7 +106,7 @@ Find below simulation results when a 4-bit input '1011' is provided. Note that d
 
 ## Contact Information
 
-- Mahati Basavaraju, Master of Science by Research Student, International Institute of Information Technology, Bangalore mahati.basavaraju@iiitb.ac.in
+- Maurya Patel, Integrated MTech ECE Student, International Institute of Information Technology, Bangalore Maurya.Pael@iiitb.ac.in
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 ## References
