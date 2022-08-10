@@ -55,16 +55,16 @@ First, make sure to have git package installed in your device. Then proceed with
 
 ```
 $   sudo apt install -y git
-$   git clone https://github.com/mahati-basavaraju/iiitb_piso
+$   git clone https://github.com/m4ury4p/IIITB_ASIC_traffic_controller
 
-$   cd iiitb_piso
+$   cd IIITB_ASIC_traffic_controller/
 
-$   iverilog -o iiitb_piso iiitb_piso_tb.v  iiitb_piso.v 
-$   vvp iiitb_piso
+$   iverilog iiitb_traffic_light_controller.v iiitb_traffic_light_controller_tb.v 
+$   ./a.out
 
-$   gtkwave iiitb_piso.vcd
+$   gtkwave output1.vcd
 ```
-
+I would recommend setting the interval of 10 microseconds and "zoom to fit" to see waveforms properly. 
 
 ## Contributors
 
