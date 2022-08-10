@@ -11,20 +11,8 @@ Traffic lights are commonly used in
 - sometimes traffic lights are used to signal danger like places which are surrounded by fog
 
 ## Block Diagram
-The  4- bit PISO shift register circuit diagram is shown below. This circuit mainly includes 4, D flip flops which are connected as per the diagram shown. The CLK(clock) input signal is connected directly to all the flip flops however the input data is individually connected to every flip flop. Hence it is a synchronous sequential circuit. The previous flip flop’s output, as well as parallel input data, is simply connected to the input of the second flip flop. 
+The block diagram of traffic light controller is shown below:
 
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/110677094/183280035-0182a932-d45a-402e-902a-a78977d61a86.png' > 
-</p> 
-
-<p align='center'> 
-  <img src='https://user-images.githubusercontent.com/110677094/183281909-80ee7817-a4a4-4293-96cf-d459695a2f60.png'>
-</p>
-
-
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/110677094/183254665-b745fa26-501c-4d35-a787-4001b81f4df0.png'>
-</p>
 
 ## Required Tools and Installation Details
 
@@ -63,7 +51,7 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which read
 
 ### Functional Simulation
 
-To install git, clone this repository and download the required files for simulation, enter the below commands in the terminal.
+First, make sure to have git package installed in your device. Then proceed with following commands:
 
 ```
 $   sudo apt install -y git
@@ -77,13 +65,6 @@ $   vvp iiitb_piso
 $   gtkwave iiitb_piso.vcd
 ```
 
-## Functional Characteristics
-
-Find below simulation results when a 4-bit input '1011' is provided. Note that data_in is the input data, data_out is the output register, q is a temporary register to indicate shifting and, clk and load are clock and shift/load signals respectively.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/110677094/183284643-1817f689-22ad-4cd7-be6b-963523d34a84.png">
-</p>
 
 ## Contributors
 
