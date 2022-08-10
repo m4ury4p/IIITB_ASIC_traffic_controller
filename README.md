@@ -2,18 +2,7 @@
 This repository contains design of a traffic light controlling module made by verlilog and the simulation of the same.
 
 ## Introduction
-Traffic lights are the signaling devices used to
-manage traffic on multi-way road. These are positioned to
-control the competing flow of the traffic at the road
-intersections to avoid collisions. By displaying lights of different colours(red,
-yellow and green), they alternate the way of multi-road users.
-The implementation of traffic Light Controller can be through
-a Microcontroller, Field Programmable Gate Array or
-Application Specific Integrated Circuit. FPGA implementation
-is advantageous over ASIC and microcontroller; number of IO
-ports and performance compared to microcontroller and
-implementation with FPGA is less expensive compared to ASIC
-design.
+Traffic lights are signaling devices used to manage traffic using different colours of light(Red, Green and Yellow). They are placed on the cross-roads to manage traffic. This model can be implemented using a microcontroller, programmable gate array or application specific IC. 
 
 ## Applications
 PISO Shift Registers are commonly used in
