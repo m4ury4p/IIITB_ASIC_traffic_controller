@@ -12,7 +12,9 @@ Traffic lights are commonly used in
 
 ## Block Diagram
 The block diagram of traffic light controller is shown below:
-
+<p align="center">
+  <img src="https://2.bp.blogspot.com/-ydh2DFq1BXQ/WB1oLTULi2I/AAAAAAAAEq0/SIKy6J_1r4gBHid8o5Koa-SK6n68GRaKwCLcB/s400/tracfic1.jpg">
+</p>
 
 ## Required Tools and Installation Details
 
