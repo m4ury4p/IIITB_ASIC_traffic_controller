@@ -40,7 +40,7 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which read
 
 <ul>
   <li>
-    <b> For Ubuntu/ Linux mint </b> 
+    <b> For Ubuntu/ Linux mint: </b> 
     <br>
     Open the terminal and enter the following commands
     
@@ -48,7 +48,15 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which read
     $   sudo apt-get update
     $   sudo apt-get install iverilog 
     $   sudo apt-get install gtkwave
-   </li>
+    
+    <b> For arch based distros: </b>
+    <br>
+  
+  
+    $   sudo pacman -Syu
+    $   sudo pacman -S iverilog 
+    $   sudo pacman -S gtkwave
+  </li>
 </ul>
 
 ### Functional Simulation
