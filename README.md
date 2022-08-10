@@ -106,11 +106,8 @@ Find below simulation results when a 4-bit input '1011' is provided. Note that d
 
 ## Contact Information
 
-- Maurya Patel, Integrated MTech ECE Student, International Institute of Information Technology, Bangalore Maurya.Pael@iiitb.ac.in
+- Maurya Patel, Integrated MTech ECE Student, International Institute of Information Technology, Bangalore Maurya.Patel@iiitb.ac.in
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 ## References
-- https://www.elprocus.com/piso-shift-register/
-- https://www.electronics-tutorial.net/sequential-logic-circuits/parallel-in-to-serial-out-piso-shift-register/
-- https://www.electronicshub.org/shift-registers/
-- https://www.youtube.com/watch?v=JzXGiVig4zE
+- https://www.fpga4student.com/2016/11/verilog-code-for-traffic-light-system.html
