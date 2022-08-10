@@ -2,7 +2,18 @@
 This repository contains design of a traffic light controlling module made by verlilog and the simulation of the same.
 
 ## Introduction
-The shift register which uses parallel input and generates serial output is known as the parallel input serial output shift register or PISO shift register. In this shift register, the input data enters a parallel way and comes out serially. The flip-flops are connected such that the input of the second flip flop is the output of the first flip flop. Since a 4-bit PISO shift register is being implemented , 4 flip flops are used.
+Traffic lights are the signaling devices used to
+manage traffic on multi-way road. These are positioned to
+control the competing flow of the traffic at the road
+intersections to avoid collisions. By displaying lights of different colours(red,
+yellow and green), they alternate the way of multi-road users.
+The implementation of traffic Light Controller can be through
+a Microcontroller, Field Programmable Gate Array or
+Application Specific Integrated Circuit. FPGA implementation
+is advantageous over ASIC and microcontroller; number of IO
+ports and performance compared to microcontroller and
+implementation with FPGA is less expensive compared to ASIC
+design.
 
 ## Applications
 PISO Shift Registers are commonly used in
