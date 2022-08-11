@@ -18,7 +18,7 @@ The block diagram of traffic light controller is shown below:
 
 ## Functional characteristics
 
-The design has five main parameters to it.\\
+The design has five main parameters to it.
 The C button here is a sensor response, which will activate once any disturbance occurs on the area it is directed.
 The clock will keep track of time which can be used to decide the time to change the traffic signal.
 The reset button is used for initialisation of the whole process. As the whole system is autonomous, reset button won't be needed after first step.
