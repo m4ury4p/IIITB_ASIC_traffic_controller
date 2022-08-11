@@ -97,3 +97,4 @@ I would recommend setting the interval of 10 microseconds and "zoom to fit" to s
 
 ## References
 - https://www.fpga4student.com/2016/11/verilog-code-for-traffic-light-system.html
+- https://www.academia.edu/21200096/DESIGN_AND_IMPLEMENTATION_OF_TRAFFIC_LIGHTS_CONTROLLER_USING_FPGA_A_Project_Based_Laboratory_Report_in_partial_fulfilment_for_the_award_of_III_IV_B_Tech_I_Semester_Submitted_by_Lab_Instructor
