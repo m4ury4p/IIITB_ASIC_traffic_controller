@@ -22,7 +22,7 @@ The design has five main parameters to it.<br>
 The C button here is a sensor response, which will activate once any disturbance occurs on the area it is directed.<br>
 The clock will keep track of time which can be used to decide the time to change the traffic signal.<br>
 The reset button is used for initialisation of the whole process. As the whole system is autonomous, reset button won't be needed after first step.<br>
-And then there are light-farm and light-highway parameters which will output the respective signals on two traffic light connected by sensor.<br>
+And then there are light_farm and light_highway parameters which will output the respective signals on two traffic light connected by sensor.<br>
 
 Below is the output of gkwave tool after using the verilog code and the testbench. The vvp file at the output is showing clock signal, traffic light near highway and the other traffic light (near farm).
 <p align="center">
