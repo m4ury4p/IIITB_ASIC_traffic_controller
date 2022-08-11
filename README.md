@@ -1,4 +1,4 @@
-# IIITB_ASIC_traffic_light_controller
+# IIITB_TLC -> traffic_light_controller
 This repository contains design of a traffic light controlling module made by verlilog and simulation of the same.
 
 ## Introduction
