@@ -81,6 +81,14 @@ $   gtkwave output1.vcd
 ```
 I would recommend setting the interval of 10 microseconds and "zoom to fit" to see waveforms properly. 
 
+##  Synthesis using Yosys
+
+This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains.<br>
+
+Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base.
+
+
+
 ## Contributors
 
 - <b> Maurya Patel </b>
