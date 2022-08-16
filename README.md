@@ -81,7 +81,7 @@ $   gtkwave output1.vcd
 ```
 I would recommend setting the interval of 10 microseconds and "zoom to fit" to see waveforms properly. 
 
-##  Synthesis using Yosys
+###  Synthesis using Yosys
 
 In computer engineering, logic synthesis is a process by which an abstract specification of desired circuit behavior, typically at register transfer level (RTL), is turned into a design implementation in terms of logic gates, typically by a computer program called a synthesis tool. Common examples of this process include synthesis of designs specified in hardware description languages, including VHDL and Verilog.Some synthesis tools generate bitstreams for programmable logic devices such as PALs or FPGAs, while others target the creation of ASICs. Logic synthesis is one aspect of electronic design automation.<br>
 
@@ -89,6 +89,21 @@ This is a framework for RTL synthesis tools. It currently has extensive Verilog-
 
 Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base.<br>
 
+To install yosys use the following commands for arch-linux
+```
+sudo pacman -S yosys
+```
+
+Here, we will use following commands to run our script.
+
+```
+$ yosys
+$ read_liberty -lib -lib /lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ read_verilog iiitb_tlc.v
+$ synth -top iiitb_tlc 
+$ show
+
+```
 
 
 ## Contributors
@@ -109,3 +124,4 @@ Yosys can be adapted to perform any synthesis job by combining the existing pass
 - https://www.fpga4student.com/2016/11/verilog-code-for-traffic-light-system.html
 - https://www.academia.edu/21200096/DESIGN_AND_IMPLEMENTATION_OF_TRAFFIC_LIGHTS_CONTROLLER_USING_FPGA_A_Project_Based_Laboratory_Report_in_partial_fulfilment_for_the_award_of_III_IV_B_Tech_I_Semester_Submitted_by_Lab_Instructor
 - https://iverilog.fandom.com/wiki/GTKWave
+- https://en.wikipedia.org/wiki/Logic_synthesis
