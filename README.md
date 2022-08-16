@@ -101,7 +101,7 @@ $ yosys
 $ read_liberty -lib -lib /lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 $ read_verilog iiitb_tlc.v
 $ synth -top iiitb_tlc 
-$ abc -liberty /$HOME/iiitb_tlc/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ abc -liberty /home/iiitb_tlc/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 $ show
 
 ```
