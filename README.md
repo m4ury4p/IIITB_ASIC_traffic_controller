@@ -114,7 +114,7 @@ $   show
 ### GLS - Gate Level Simulation
 
 
-To run Gate Level Simulation, run below commands:
+To run Gate Level Simulation, run commands given below:
 
 ```
 $   iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 verilog_model/primitives.v verilog_model/sky130_fd_sc_hd.v iiitb_tlc_synth.v iiitb_tlc_tb.v
