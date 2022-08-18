@@ -113,6 +113,13 @@ $   show
 <p align="left">
   <img src="output_images/pre_synthesis_output.png">
 </p>
+
+##  Post synthesis:
+<p align="left">
+  <img src="output_images/post_synthesis_output.png">
+</p>
+
+
 ## Contributors
 
 - <b> Maurya Patel </b>
