@@ -102,6 +102,8 @@ $ read_liberty -lib /lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 $ read_verilog iiitb_tlc.v
 $ synth -top iiitb_tlc 
 $ abc -liberty /home/iiitb_tlc/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ write_verilog -noattr iiitb_tlc_synth.v
+$ stat
 $ show
 
 ```
