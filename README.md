@@ -141,6 +141,7 @@ $   gtkwave post_synthesis.vcd
 </p>
 
 
+As we can see here , our pre and post synthesis outputs are same.
 ## Contributors
 
 - <b> Maurya Patel </b>
