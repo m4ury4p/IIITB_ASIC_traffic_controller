@@ -113,6 +113,9 @@ $   show
 
 ### GLS - Gate Level Simulation
 
+The term "gate level" refers to the netlist view of a circuit, usually produced by logic synthesis. So while RTL simulation is pre-synthesis, GLS is post-synthesis. The netlist view is a complete connection list consisting of gates and IP models with full functional and timing behavior. <br>
+RTL simulation is a zero delay environment and events generally occur on the active clock edge. GLS can be zero delay also, but is more often used in unit delay or full timing mode. Events may be triggered by the clock, but will propagate according to the delays on each element. <br>
+The loading and wiring delay models of the netlist can be estimated by the synthesis tools, or can be output from the layout tools. These delay models usually come in the form of an SDF (standard delay format) file.
 
 To run Gate Level Simulation, run commands given below:
 
