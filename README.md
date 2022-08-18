@@ -24,11 +24,6 @@ The clock will keep track of time which can be used to decide the time to change
 The reset button is used for initialisation of the whole process. As the whole system is autonomous, reset button won't be needed after first step.<br>
 And then there are light_farm and light_highway parameters which will output the respective signals on two traffic light connected by sensor.<br>
 
-Below is the output of gkwave tool after using the verilog code and the testbench. The vvp file at the output is showing clock signal, traffic light near highway and the other traffic light (near farm).
-<p align="center">
-  <img width="900" height="250" src="/images/output.png">
-</p>
-
 ## Required Tools and Installation Details
 
 ### iverilog
@@ -112,7 +107,12 @@ $   show
 ### GLS - Gate Level Simulation
 
 
+### Output Images
 
+##  Pre synthesis:
+<p align="left">
+  <img src="output_images/pre_synthesis_output.png">
+</p>
 ## Contributors
 
 - <b> Maurya Patel </b>
