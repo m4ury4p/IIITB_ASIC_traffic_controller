@@ -83,7 +83,8 @@ I would recommend setting the interval of 10 microseconds and "zoom to fit" to s
 
 ###  Synthesis using Yosys
 
-In computer engineering, logic synthesis is a process by which an abstract specification of desired circuit behavior, typically at register transfer level (RTL), is turned into a design implementation in terms of logic gates, typically by a computer program called a synthesis tool. Common examples of this process include synthesis of designs specified in hardware description languages, including VHDL and Verilog.Some synthesis tools generate bitstreams for programmable logic devices such as PALs or FPGAs, while others target the creation of ASICs. Logic synthesis is one aspect of electronic design automation.<br>
+In computer engineering, logic synthesis is a process by which an abstract specification of desired circuit behavior, typically at register transfer level (RTL), is turned into a design implementation in terms of logic gates, typically by a computer program called a synthesis tool.<br>
+Common examples of this process include synthesis of designs specified in hardware description languages, including VHDL and Verilog.Some synthesis tools generate bitstreams for programmable logic devices such as PALs or FPGAs, while others target the creation of ASICs. Logic synthesis is one aspect of electronic design automation.<br>
 
 This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains.<br>
 
@@ -97,14 +98,14 @@ sudo pacman -S yosys
 Here, we will use following commands to run our script.
 
 ```
-$ yosys
-$ read_liberty -lib /lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ read_verilog iiitb_tlc.v
-$ synth -top iiitb_tlc 
-$ abc -liberty /home/iiitb_tlc/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ write_verilog -noattr iiitb_tlc_synth.v
-$ stat
-$ show
+$   yosys
+$   read_liberty -lib /lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$   read_verilog iiitb_tlc.v
+$   synth -top iiitb_tlc 
+$   abc -liberty /home/iiitb_tlc/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$   write_verilog -noattr iiitb_tlc_synth.v
+$   stat
+$   show
 
 ```
 
