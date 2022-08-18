@@ -34,7 +34,12 @@ Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a comp
 
 GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. We will be using this tool to simulate the output of our main code using a testbench.
 
-### Installation of iverilog and GTKwave
+### Yosys
+
+This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains.
+
+
+### Instructions to Install above tools:
 
 <ul>
   <li>
@@ -46,6 +51,8 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which read
     $   sudo apt-get update
     $   sudo apt-get install iverilog 
     $   sudo apt-get install gtkwave
+    $   sudo apt-get install yosys
+    
   </li>
   <li>
     <b> For arch based distros: </b>
@@ -56,6 +63,8 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix and Win32 which read
     $   sudo pacman -Syu
     $   sudo pacman -S iverilog 
     $   sudo pacman -S gtkwave
+    $   sudo pacman -S yosys
+    
   </li>
 </ul>
 
@@ -72,7 +81,7 @@ $   cd IIITB_ASIC_traffic_controller/
 $   iverilog iiitb_traffic_light_controller.v iiitb_traffic_light_controller_tb.v 
 $   ./a.out
 
-$   gtkwave output1.vcd
+$   gtkwave pre_synthesis.vcd
 ```
 I would recommend setting the interval of 10 microseconds and "zoom to fit" to see waveforms properly. 
 
@@ -80,8 +89,6 @@ I would recommend setting the interval of 10 microseconds and "zoom to fit" to s
 
 In computer engineering, logic synthesis is a process by which an abstract specification of desired circuit behavior, typically at register transfer level (RTL), is turned into a design implementation in terms of logic gates, typically by a computer program called a synthesis tool.<br>
 Common examples of this process include synthesis of designs specified in hardware description languages, including VHDL and Verilog.Some synthesis tools generate bitstreams for programmable logic devices such as PALs or FPGAs, while others target the creation of ASICs. Logic synthesis is one aspect of electronic design automation.<br>
-
-This is a framework for RTL synthesis tools. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains.<br>
 
 Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base.<br>
 
@@ -106,6 +113,15 @@ $   show
 
 ### GLS - Gate Level Simulation
 
+
+To run Gate Level Simulation, run below commands:
+
+```
+$   iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 verilog_model/primitives.v verilog_model/sky130_fd_sc_hd.v iiitb_tlc_synth.v iiitb_tlc_tb.v
+$   ./a.out
+$   gtkwave post_synthesis.vcd
+
+```
 
 ### Output Images
 
