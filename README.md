@@ -94,11 +94,6 @@ Common examples of this process include synthesis of designs specified in hardwa
 
 Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the yosys C++ code base.<br>
 
-To install yosys use the following commands for arch-linux
-```
-sudo pacman -S yosys
-```
-
 Here, we will use following commands to run our script.
 
 ```
