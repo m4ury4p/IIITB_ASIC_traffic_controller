@@ -135,7 +135,7 @@ $   gtkwave post_synthesis.vcd
   <img src="output_images/post_synthesis_output.png">
 </p>
 
-###Simulation using OpenLane
+### Simulation using OpenLane:
 
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
 
@@ -151,7 +151,7 @@ To install and test the tool, we can run following commands and tests:
 
 ```
 
-### Magic
+### Magic:
 
 Magic is an electronic design automation (EDA) layout tool for very-large-scale integration (VLSI) integrated circuit (IC) originally written by John Ousterhout and his graduate students at UC Berkeley.<br>
 
@@ -178,6 +178,18 @@ $ sudo make
 $ sudo make install
 ```
 Then we can type magic in terminal to verify if our installation was successful or not.
+
+### Simulating Layout:
+
+To simulate the layout, we  will follow the steps shown below:
+
+```
+$
+```
+
+
+
+
 
 
 As we can see here , our pre and post synthesis outputs are same.
