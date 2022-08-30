@@ -184,7 +184,19 @@ Then we can type magic in terminal to verify if our installation was successful 
 To simulate the layout, we  will follow the steps shown below:
 
 ```
-$
+$ cd /OpenLane/designs
+$ mkdir iiitb_tlc
+$ touch config.json
+$ cd iiitb_tlc
+$ mv $HOME/iiitb_tlc/config.json OpenLane/designs/iiitb_tlc/config.json
+```
+Then, copy the src directory from home/iiitb_tlc and paste it in openlane/designs/iiitb_tlc.<br>
+After that, run the following commands:
+```
+$ cd OpenLane
+$ sudo make mount
+$ ./flow.tcl -design iiitb_tlc
+
 ```
 
 
