@@ -139,7 +139,7 @@ $   gtkwave post_synthesis.vcd
 
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
 
-To install and test the tool, we can run following tests:
+To install and test the tool, we can run following commands and tests:
 ```
  $git clone https://github.com/The-OpenROAD-Project/OpenLane.git
  
@@ -149,6 +149,24 @@ To install and test the tool, we can run following tests:
  
  $ sudo make test
 
+```
+
+### Magic
+
+Magic is an electronic design automation (EDA) layout tool for very-large-scale integration (VLSI) integrated circuit (IC) originally written by John Ousterhout and his graduate students at UC Berkeley.<br>
+
+Magic features real-time design rule checking, something that some costly commercial VLSI design software packages don't feature. Magic implements this by counting distance using Manhattan distance rather than Euclidean distance, which is much faster to compute.
+
+To install this tool,we need to install some packages listed below:
+```
+$   sudo apt-get install m4
+$   sudo apt-get install tcsh
+$   sudo apt-get install csh
+$   sudo apt-get install libx11-dev
+$   sudo apt-get install tcl-dev tk-dev
+$   sudo apt-get install libcairo2-dev
+$   sudo apt-get install mesa-common-dev libglu1-mesa-dev
+$   sudo apt-get install libncurses-dev
 ```
 
 
