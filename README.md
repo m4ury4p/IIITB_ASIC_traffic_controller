@@ -122,6 +122,7 @@ $   ./a.out
 $   gtkwave post_synthesis.vcd
 
 ```
+As we can see here , our pre and post synthesis outputs are same.
 
 ### Output Images
 
@@ -198,13 +199,13 @@ $ sudo make mount
 $ ./flow.tcl -design iiitb_tlc
 
 ```
+So, the output looks like
+
+<p align="left">
+  <img src="output_images/openlane_img_1.png">
+</p>
 
 
-
-
-
-
-As we can see here , our pre and post synthesis outputs are same.
 ## Contributors
 
 - <b> Maurya Patel </b>
