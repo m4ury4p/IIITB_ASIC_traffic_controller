@@ -135,6 +135,22 @@ $   gtkwave post_synthesis.vcd
   <img src="output_images/post_synthesis_output.png">
 </p>
 
+###Simulation using OpenLane
+
+OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
+
+To install and test the tool, we can run following tests:
+```
+ $git clone https://github.com/The-OpenROAD-Project/OpenLane.git
+ 
+ $ cd OpenLane/
+ 
+ $ sudo make
+ 
+ $ sudo make test
+
+```
+
 
 As we can see here , our pre and post synthesis outputs are same.
 ## Contributors
