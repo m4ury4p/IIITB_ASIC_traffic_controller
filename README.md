@@ -231,6 +231,24 @@ It will show the output as given below:
 </p>
 
 
+Then, we can us select show grids option in our magic tool's menu bar or use grid <arg1> <arg2> in tcl console to review the placement of ports.
+<p align="left">
+  <img src="output_images/spice_grid.png">
+</p>
+
+
+To save the file:
+```
+% save sky130_vsdinv.mag
+```
+make sure to use different name for our .mag file.<br>
+Then run the new .mag file and generate the .lef file using commands given below:
+```
+$ magic -T sky130A.tech sky130_vsdinv.mag
+//In tcl console
+%lef write
+```
+
 
 
 ### Simulating Layout 2.0:
