@@ -180,8 +180,30 @@ $ sudo make install
 ```
 Then we can type magic in terminal to verify if our installation was successful or not.
 
-### Simulating Layout:
 
+### Custom Inverter Cell using magic tool:
+
+To create custom inverter cell, follow these intructions:
+
+```
+$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+$ cd vsdstdcelldesign
+$  cp ./libs/sky130A.tech sky130A.tech
+$ magic -T sky130A.tech sky130_inv.mag &
+
+```
+The output will look like this:
+
+<p align="left">
+  <img src="output_images/post_synthesis_output.png">
+</p>
+
+
+
+
+
+
+### Simulating Layout 2.0:
 To simulate the layout, we  will follow the steps shown below:
 
 ```
