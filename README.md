@@ -128,7 +128,7 @@ As we can see here , our pre and post synthesis outputs are same.
 
 ##  Pre synthesis:
 <p align="left">
-  <img src="output_images/pre_synthesis_output.png">
+  <img src="output_images/inv_cell.png">
 </p>
 
 ##  Post synthesis:
