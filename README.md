@@ -227,7 +227,7 @@ It will start ngspice in terminal and show the parameters and their values in th
 ```
 It will show the output as given below:
 <p align="left">
-  <img src="output_images/spice_output.png" height="500">
+  <img src="output_images/spice_output.png" height="300">
 </p>
 
 
