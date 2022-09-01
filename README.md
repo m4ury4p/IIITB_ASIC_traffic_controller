@@ -212,6 +212,25 @@ The changes will occur in sky130_inv.spice file in your vsdstdcelldesign directo
   <img src="output_images/inv_cell_2.png">
 </p>
 
+Then, open the extracted spice netlist and edit its contents as following:
+<p align="left">
+  <img src="output_images/spice_file.png">
+</p>
+
+After changing the file, use the following commands in currernt directory:
+```
+$ ngspice sky130_inv.spice 
+```
+It will start ngspice in terminal and show the parameters and their values in the file. Then type following command:
+```
+-> plot y vs time a
+```
+It will show the output as given below:
+<p align="left">
+  <img src="output_images/spice_output.png">
+</p>
+
+
 
 
 ### Simulating Layout 2.0:
