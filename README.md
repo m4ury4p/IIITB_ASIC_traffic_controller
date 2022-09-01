@@ -281,8 +281,9 @@ In the runs/RUN_2022.xx/logs/synthesis directory we can find the log file which 
   <img src="output_images/stats_1.png">
 </p>
   
-  Then, for floorplaning 
+  Then, for floorplaning...
   
+  Also, installation of tools...
   
   
   
