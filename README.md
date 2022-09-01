@@ -272,8 +272,10 @@ $ ./flow.tcl -design iiitb_tlc
 So, the output looks like
 
 <p align="left">
-  <img src="output_images/openlane_img_1.png">
+  <img src="output_images/openlane_img_1.png" width="400">
+  <img src="output_images/out_2.png" width="400">
 </p>
+
 
 
 ## Contributors
