@@ -198,8 +198,19 @@ The output will look like this:
   <img src="output_images/inv_cell.png">
 </p>
 
+Then we can type the following commands in the tcl console to extract the spice netlist:
 
+```
+% extract all
+% ext2spice cthresh 0 rthresh 0
+% ext2spice
 
+```
+The changes will occur in sky130_inv.spice file in your vsdstdcelldesign directory
+
+<p align="left">
+  <img src="output_images/inv_cell_2.png">
+</p>
 
 
 
