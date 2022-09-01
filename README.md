@@ -281,7 +281,11 @@ In the runs/RUN_2022.xx/logs/synthesis directory we can find the log file which 
   <img src="output_images/stats_1.png">
 </p>
   
-/home/garudamp/OpenLane/designs/iiitb_tlc/runs/RUN_2022.09.01_09.34.46/logs/synthesis/2-sta.log
+  Then, for floorplaning 
+  
+  
+  
+  
 ## Contributors
 
 - <b> Maurya Patel </b>
