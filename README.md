@@ -250,8 +250,7 @@ $ magic -T sky130A.tech sky130_vsdinv.mag
 ```
 
 
-
-### Simulating Layout 2.0:
+### Simulating Layout:
 To simulate the layout, we  will follow the steps shown below:
 
 ```
@@ -276,8 +275,13 @@ So, the output looks like
   <img src="output_images/out_2.png" width="400">
 </p>
 
-
-
+If all the steps are run without any error, we can check the observations.<br>
+In the runs/RUN_2022.xx/logs/synthesis directory we can find the log file which diplays the details about components and the area required.
+<p align="left">
+  <img src="output_images/stats_1.png">
+</p>
+  
+/home/garudamp/OpenLane/designs/iiitb_tlc/runs/RUN_2022.09.01_09.34.46/logs/synthesis/2-sta.log
 ## Contributors
 
 - <b> Maurya Patel </b>
