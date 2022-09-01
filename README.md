@@ -128,7 +128,7 @@ As we can see here , our pre and post synthesis outputs are same.
 
 ##  Pre synthesis:
 <p align="left">
-  <img src="output_images/inv_cell.png">
+  <img src="output_images/pre_synthesis_output.png">
 </p>
 
 ##  Post synthesis:
@@ -195,7 +195,7 @@ $ magic -T sky130A.tech sky130_inv.mag &
 The output will look like this:
 
 <p align="left">
-  <img src="output_images/post_synthesis_output.png">
+  <img src="output_images/inv_cell.png">
 </p>
 
 
