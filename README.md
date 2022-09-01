@@ -233,7 +233,7 @@ It will show the output as given below:
 
 Then, we can us select show grids option in our magic tool's menu bar or use grid <arg1> <arg2> in tcl console to review the placement of ports.
 <p align="left">
-  <img src="output_images/spice_grid.png">
+  <img src="output_images/spice_grid.png" height="200">
 </p>
 
 
