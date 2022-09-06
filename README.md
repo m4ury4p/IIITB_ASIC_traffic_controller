@@ -264,24 +264,49 @@ Then, copy the src directory from home/iiitb_tlc and paste it in openlane/design
 After that, run the following commands:
 ```
 $ cd OpenLane
+$ sudo systemctl start docker
 $ sudo make mount
-$ ./flow.tcl -design iiitb_tlc
+$ ./flow.tcl -interactive
 
 ```
-So, the output looks like
+It will open the container in openlane directory.<br>
+Then, type the following in terminal:
+```
+% package require openlane 0.9
 
+% prep -design iiitb_tlc
+
+% lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+% add_lefs -src $lefs
+```
+Now, open the mergerd.nom.lef file in /$run_directory/tmp and it should have the definition of sky130_vsdinv:
 <p align="left">
-  <img src="output_images/openlane_img_1.png" width="600">
-  <img src="output_images/out_2.png" width="400">
+  <img src="output_images/merged_lef.png" height="300">
 </p>
 
-If all the steps are run without any error, we can check the observations.<br>
-In the runs/RUN_2022.xx/logs/synthesis directory we can find the log file which diplays the details about components and the area required.
+## Synthesis:
+```
+% run_synthesis
+```
+After typing above command, synthesis will start running. After the completion of two steps, we will get something like this in reports/synthesis directory:
 <p align="left">
-  <img src="output_images/stats_1.png">
+  <img src="output_images/synth_stats.png" height="300">
 </p>
+<p align="left">
+  <img src="output_images/synth_stats_2.png" height="300">
+</p>
+It represents the statistics of used gates and the slack time.<br>
+
+Now, out 
+
   
-  Then, for floorplaning...
+  
+  
+  
+  
+  
+  
+  
   
   Also, installation of tools...
   
