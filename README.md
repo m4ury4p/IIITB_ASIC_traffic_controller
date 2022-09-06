@@ -290,25 +290,100 @@ Now, open the mergerd.nom.lef file in /$run_directory/tmp and it should have the
 ```
 After typing above command, synthesis will start running. After the completion of two steps, we will get something like this in reports/synthesis directory:
 <p align="left">
-  <img src="output_images/synth_stats.png" height="300">
+  <img src="output_images/synth_stats.png">
 </p>
 <p align="left">
-  <img src="output_images/synth_stats_2.png" height="300">
+  <img src="output_images/synth_stats_2.png" >
 </p>
 It represents the statistics of used gates and the slack time.<br>
 
-Now, out 
+Now, our netlist should include sky130_vsdinv after synthesis:
+<p align="left">
+  <img src="output_images/netlis_og.png" height="300">
+</p>
+  
+ ## Floorplan:
+ ```
+ % run_floorplan
+ ```
+  After, typing above command, we will get our floorplanning results:<br>
+  
+  First, the die area:
+  <p align="left">
+  <img src="output_images/fp_die.png" height="300">
+</p>
+Then, the core area:
+<p align="left">
+  <img src="output_images/fp_core.png" height="300">
+</p>
+  
+  Now, open terminal in results/floorplan directory and type the following command in new terminal:
+  ```
+  magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_tlc.def &
+  ```
+  change garudamp by your home directory's name.<br>
+  Now, we will get the floorplan view in our magic tool as below:
+  
+ <p align="left">
+  <img src="output_images/synth_1.png">
+</p>
+<p align="left">
+  <img src="output_images/synth_2.png">
+</p>
 
+## Placement:
+```
+% run_placement
+```
+After running this code, we will get our gate placement report.<br>
+Navigate to results/placement directory and open the terminal.Then type this:
+```
+magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_tlc.def &
+```
+  It will give us the following result:
+<p align="left">
+  <img src="output_images/floor_1.png">
+</p>
+
+We can also locate the sky130_vsdinv in this view:
+<p align="left">
+  <img src="output_images/floor_2.png">
+</p>
+
+  In our updated netlist we can find the sky130_vsdinv
+  <p align="left">
+  <img src="output_images/netlist_og.png" height="300">
+</p>
+  
+  ## Clock Tree synthesis :
+  ```
+  % run_cts
+  ```
+  
+  The cts report will look like following:
+<p align="left">
+  <img src="output_images/cts_report_1.png">
+</p>
+
+<p align="left">
+  <img src="output_images/cts_report_2.png">
+</p>
   
   
   
-  
-  
-  
-  
-  
-  
-  Also, installation of tools...
+  ## Routing:
+  ```
+  % run_routing
+  ```
+  Navigate to results/routing directory and open the terminal.Then type this:
+```
+magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_tlc.def &
+```
+  It will look like this:
+  <p align="left">
+  <img src="output_images/routing.png">
+</p>
+
   
   
   
