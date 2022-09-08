@@ -388,6 +388,11 @@ magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
   <img src="output_images/Screenshot_23.png">
 </p>
 
+### The gate structure using yosys looks like this:
+</p>
+  <p align="left">
+  <img src="output_images/img_0.png">
+</p>
   
   
 ## Contributors
