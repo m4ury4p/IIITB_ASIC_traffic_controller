@@ -382,6 +382,7 @@ magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
   It will look like this:
   <p align="left">
   <img src="output_images/routing.png">
+  The vsdinv in the routing view.
 </p>
   <p align="left">
   <img src="output_images/Screenshot_23.png">
@@ -389,11 +390,9 @@ magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
 
   
   
-  
 ## Contributors
 
 - <b> Maurya Patel </b>
-- <b> Kunal Ghosh </b>
 
 ## Acknowledgements
 
