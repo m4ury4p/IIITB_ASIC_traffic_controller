@@ -393,7 +393,16 @@ magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
   <p align="left">
   <img src="output_images/img_0.png">
 </p>
-  
+
+
+### MID-term questions:
+
+## Q1. Post Layout synthesis gate count
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_1.png">
+</p>
+
   
 ## Contributors
 
