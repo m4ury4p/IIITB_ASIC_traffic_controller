@@ -403,6 +403,54 @@ magic -T /home/garudamp/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
   <img src="midterm_ASIC/midterm_1.png">
 </p>
 
+Gate Count = 262
+
+## Q2. Area(box command)
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_2.png">
+</p>
+
+Area = 72612.133 (um)^2 <br>
+
+## Q3.Performance:
+
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_3_t1.png">
+</p>
+
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_3_t2.png">
+</p>
+
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_3.png">
+</p>
+
+Performance = 1 / (clock period - slack) = 1/(50 - 38.47) = 0.0867
+
+## Q4. Flop/Starndard cell ratio
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_4.png">
+</p>
+
+Flip Ratio = No. of flipflops / No. of Cells = (59 + 2) / 262 = 0.233
+
+## Q5. Power calculation:
+
+</p>
+  <p align="left">
+  <img src="midterm_ASIC/midterm_5.png">
+</p>
+
+Internal power = 89.5 uW (65.1%)
+Switching Power = 48.0 uW (34.9%)
+Leakage Power = 20.8 nW (0%)
+Total Power = 137 uW (100%)
   
 ## Contributors
 
