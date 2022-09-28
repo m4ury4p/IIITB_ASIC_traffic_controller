@@ -430,7 +430,7 @@ Area = 72612.133 (um)^2 <br>
   <img src="midterm_ASIC/midterm_3.png">
 </p>
 
-Performance = 1 / (clock period - slack) = 1/(50 - 38.47) = 0.0867
+Performance = 1 / (clock period - slack) = 1/(50 - 38.47) = 0.0867 MHz
 
 ## Q4. Flop/Starndard cell ratio
 </p>
